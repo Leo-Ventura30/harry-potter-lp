@@ -30,7 +30,7 @@ const LoadMore = () => {
   }, [itemPerPage]);
 
   return (
-    <Container className="container-chars" maxWidth={"xl"}>
+    <Container id="chars" className="container-chars" maxWidth={"xl"}>
       <Container maxWidth={"lg"}>
         <Stack alignItems={"center"} py={5}>
           <Stack width={"60%"} alignItems={"center"}>

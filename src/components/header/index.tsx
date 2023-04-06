@@ -5,7 +5,7 @@ import Logo from "../../assets/svg/castle-hogwarts.svg";
 import MainBanner from "../banner";
 
 const HeaderBanner = () => (
-  <Container maxWidth={"xl"} className="header-content">
+  <Container id="home" maxWidth={"xl"} className="header-content">
     <AppBar
       className="app-bar"
       position={"relative"}
@@ -25,8 +25,8 @@ const HeaderBanner = () => (
             <img src={Logo} alt="logo" />
           </Box>
           <Stack spacing={2} direction="row">
-            <Tab label="Home" />
-            <Tab label="Personagens" />
+            <Tab label="Home" href="#home" />
+            <Tab label="Personagens" href="#chars" />
           </Stack>
         </Stack>
       </Container>

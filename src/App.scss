@@ -1,0 +1,72 @@
+$default_background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9));
+
+.app-container {
+  background-color: #000;
+  padding: 0 !important;
+
+  .default-button {
+    background-color: #eeba30;
+    color: #740001;
+    max-width: 150;
+    &:hover {
+      background-color: #f0c75e;
+      color: #ae0001;
+    }
+  }
+
+  .header-content {
+    background-image: $default_background, url("./assets/imgs/hogwarts.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 !important;
+    .app-bar {
+      box-shadow: none !important;
+    }
+
+    .nav {
+      & button {
+        color: white;
+      }
+    }
+    .main-banner {
+      h1,
+      h2 {
+        font-weight: 700;
+      }
+      h1 {
+        font-size: 2rem;
+        color: #d3a625;
+      }
+      h2 {
+        font-size: 1.2rem;
+        color: #5d5d5d;
+      }
+      // #d3a625
+    }
+  }
+  .container-chars {
+    background-image: $default_background,
+      url("./assets/imgs/shield-hogwarts.webp");
+    background-color: #5d5d5d;
+    background-repeat: round;
+    background-size: contain;
+
+    .card-image {
+      background-position: initial;
+    }
+    .card-content {
+      .info {
+        flex-direction: row;
+        align-items: center;
+      }
+      p {
+        font-weight: 600;
+        color: #740001;
+        margin-left: 8px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+}

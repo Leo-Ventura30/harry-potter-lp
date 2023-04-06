@@ -20,7 +20,7 @@ const MainBanner = () => (
         with desktop publishing software like Aldus PageMaker including versions
         of Lorem Ipsum.
       </Typography>
-      <CustomButton>Descubra a Magia</CustomButton>
+      <CustomButton href={"#chars"}>Descubra a Magia</CustomButton>
     </Stack>
   </Container>
 );

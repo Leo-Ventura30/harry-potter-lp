@@ -54,7 +54,7 @@ const LoadMore = () => {
               <Avatar src={Shield} />
             </Stack>
             <Stack direction={"row"} spacing={5} pt={4}>
-              <LegendIcons icon={Char} children={"Autor"} />
+              <LegendIcons icon={Char} children={"Ator"} />
               <LegendIcons icon={Nimbus} children={"Personagem"} />
               <LegendIcons icon={Time} children={"Data de Nascimento"} />
               <LegendIcons icon={Deathly} children={"Se está vivo"} />
